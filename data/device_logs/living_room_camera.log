@@ -1,0 +1,7 @@
+[2026-05-05 10:21:33] camera=living_room_camera status=online
+[2026-05-05 10:22:10] stream=start result=failed error=STREAM_CONNECT_TIMEOUT
+[2026-05-05 10:22:11] wifi_signal=weak rssi=-78
+[2026-05-05 10:22:12] firmware_version=2.0.3 latest=2.1.5
+[2026-05-05 10:22:13] cloud_auth=normal
+[2026-05-05 10:22:14] privacy_mode=false
+

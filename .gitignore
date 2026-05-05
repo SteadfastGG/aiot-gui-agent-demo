@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Local environment
+.env
+*.local
+
+# Runtime outputs
+outputs/*.md
+outputs/*.json
+outputs/*.log
+!outputs/.gitkeep
+
+# Playwright / browser artifacts
+playwright-report/
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
+

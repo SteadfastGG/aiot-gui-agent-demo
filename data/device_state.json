@@ -1,0 +1,32 @@
+{
+  "living_room_camera": {
+    "device_name": "客厅摄像头",
+    "online": true,
+    "stream_status": "failed",
+    "firmware_version": "2.0.3",
+    "latest_firmware": "2.1.5",
+    "wifi_signal": "weak",
+    "rssi": -78,
+    "cloud_auth": "normal",
+    "last_error": "STREAM_CONNECT_TIMEOUT",
+    "privacy_mode": false
+  },
+  "home_router": {
+    "device_name": "家庭路由器",
+    "online": true,
+    "security_mode": "normal",
+    "signal_quality": "medium",
+    "blocked_ports": []
+  },
+  "mi_home_app": {
+    "device_name": "米家 App",
+    "login_status": "normal",
+    "permission_status": "normal"
+  },
+  "cloud_auth_service": {
+    "device_name": "云鉴权服务",
+    "status": "normal",
+    "last_check": "2026-05-05 10:22:13"
+  }
+}
+
