@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mock AIoT Device Console</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel device-list">
+        <header>
+          <p class="eyebrow">Device Console</p>
+          <h1>AIoT 控制台</h1>
+        </header>
+        <button class="device active" data-testid="device-living_room_camera">
+          <span>客厅摄像头</span>
+          <strong>Online</strong>
+        </button>
+        <button class="device" disabled>
+          <span>家庭路由器</span>
+          <strong>Online</strong>
+        </button>
+      </section>
+
+      <section class="panel details">
+        <div class="status-grid">
+          <div>
+            <span>直播状态</span>
+            <strong id="stream-status">Failed</strong>
+          </div>
+          <div>
+            <span>固件版本</span>
+            <strong id="firmware-version">2.0.3</strong>
+          </div>
+          <div>
+            <span>最新版本</span>
+            <strong>2.1.5</strong>
+          </div>
+          <div>
+            <span>RSSI</span>
+            <strong>-78</strong>
+          </div>
+          <div>
+            <span>云鉴权</span>
+            <strong>Normal</strong>
+          </div>
+          <div>
+            <span>隐私模式</span>
+            <strong>Off</strong>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <button data-testid="network-check">网络检测</button>
+          <button data-testid="firmware-check">固件检查</button>
+          <button data-testid="upgrade-firmware">模拟升级</button>
+          <button data-testid="restart-device">重启设备</button>
+          <button data-testid="verify-stream">验证直播</button>
+        </div>
+
+        <section class="output">
+          <h2>操作输出</h2>
+          <p id="operation-output" data-testid="operation-output">等待操作。</p>
+        </section>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
